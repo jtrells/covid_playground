@@ -9,13 +9,19 @@ Using the data from MINSA, we can create an interactive chart like the following
 The data proprocessing steps are also in the *Total Cases and DataWrapper* notebook. Once you obtain the CSV file (check data/piv_data.csv), follow these steps on [DataWrapper](https://www.datawrapper.de/).
 
 ### Upload File
-![alt text](https://github.com/jtrells/covid-playground/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/jtrells/covid_playground/blob/master/imgs/01_upload_data.PNG "")
 
 ### Describe the data
-![alt text](https://github.com/jtrells/covid-playground/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+* Hide any undesided column
+
+![alt text](https://github.com/jtrells/covid_playground/blob/master/imgs/02_describe.PNG "")
 
 ### Refine the chart
-![alt text](https://github.com/jtrells/covid-playground/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+* Change vertical axis values to logarithmic
+* Change line width and strokes
+* Change base colors
+* In *Annotate*, add the trend values
+![alt text](imgs/03_refine.PNG "")
 
 ## Conda Requirements
 Check *requirements.txt*
